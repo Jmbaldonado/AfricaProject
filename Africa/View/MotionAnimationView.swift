@@ -60,9 +60,9 @@ struct MotionAnimationView: View {
                                 .delay(randomDelay()),
                             value: isAnimating
                         )
-                    .onAppear(perform: {
-                        isAnimating = true
-                    })
+                        .onAppear(perform: {
+                            isAnimating = true
+                        })
                     
                 }
             }
