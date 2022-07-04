@@ -19,6 +19,8 @@
 		B66250602872D91200BDA0B0 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B662505F2872D91200BDA0B0 /* VideoListItemView.swift */; };
 		B66250622872DDD900BDA0B0 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66250612872DDD900BDA0B0 /* VideoPlayerView.swift */; };
 		B66250652872DEA000BDA0B0 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66250642872DEA000BDA0B0 /* VideoPlayerHelper.swift */; };
+		B662506728731ECF00BDA0B0 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B662506628731ECF00BDA0B0 /* LocationModel.swift */; };
+		B66250692873224800BDA0B0 /* MapAnnotiationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66250682873224800BDA0B0 /* MapAnnotiationView.swift */; };
 		B698A5C728727F02007BDA09 /* AfricaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A5C628727F02007BDA09 /* AfricaApp.swift */; };
 		B698A5C928727F02007BDA09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B698A5C828727F02007BDA09 /* ContentView.swift */; };
 		B698A5CB28727F03007BDA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B698A5CA28727F03007BDA09 /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		B662505F2872D91200BDA0B0 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		B66250612872DDD900BDA0B0 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		B66250642872DEA000BDA0B0 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		B662506628731ECF00BDA0B0 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		B66250682873224800BDA0B0 /* MapAnnotiationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotiationView.swift; sourceTree = "<group>"; };
 		B698A5C328727F02007BDA09 /* Africa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Africa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B698A5C628727F02007BDA09 /* AfricaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfricaApp.swift; sourceTree = "<group>"; };
 		B698A5C828727F02007BDA09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -202,6 +206,7 @@
 				B662505B2872D56500BDA0B0 /* ExternalWebLinkView.swift */,
 				B662505F2872D91200BDA0B0 /* VideoListItemView.swift */,
 				B66250612872DDD900BDA0B0 /* VideoPlayerView.swift */,
+				B66250682873224800BDA0B0 /* MapAnnotiationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 				B698A6002872A966007BDA09 /* CoverImageModel.swift */,
 				B662504F2872B70600BDA0B0 /* AnimalModel.swift */,
 				B662505D2872D89900BDA0B0 /* VideoModel.swift */,
+				B662506628731ECF00BDA0B0 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B66250692873224800BDA0B0 /* MapAnnotiationView.swift in Sources */,
 				B698A5C928727F02007BDA09 /* ContentView.swift in Sources */,
 				B662504E2872B5C000BDA0B0 /* AnimalListItemView.swift in Sources */,
 				B698A5FB2872A635007BDA09 /* MainView.swift in Sources */,
@@ -324,6 +331,7 @@
 				B698A5F52872A5ED007BDA09 /* VideoListView.swift in Sources */,
 				B662505E2872D89900BDA0B0 /* VideoModel.swift in Sources */,
 				B698A5F92872A623007BDA09 /* GalleryView.swift in Sources */,
+				B662506728731ECF00BDA0B0 /* LocationModel.swift in Sources */,
 				B66250562872C34100BDA0B0 /* InsetGalleryView.swift in Sources */,
 				B66250602872D91200BDA0B0 /* VideoListItemView.swift in Sources */,
 				B698A6042872AA35007BDA09 /* CodableBundleExtension.swift in Sources */,
