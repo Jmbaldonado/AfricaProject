@@ -58,6 +58,8 @@ struct ContentView: View {
                             }
                             
                         }
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
@@ -70,6 +72,7 @@ struct ContentView: View {
                         }
                         .padding(10)
                         .animation(.easeIn)
+                        
                     }
                 } //: List
             }
